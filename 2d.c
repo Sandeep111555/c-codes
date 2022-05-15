@@ -2,25 +2,25 @@
 int main()
 
 {
-    int n317,m317;
+    int n,m;
     printf("Enter the number of rows and columns in matrix: \n");
-    scanf("%d%d",&n317,&m317);
-    int a317[n317][m317];
+    scanf("%d%d",&n,&m);
+    int a[n][m];
     printf("Enter the values in matrix: ");
-    for(int i=0;i<n317;i++)
+    for(int i=0;i<n;i++)
     {
-        for(int j=0;j<m317;j++)
+        for(int j=0;j<m;j++)
         {
-            scanf("%d",&a317[i][j]);
+            scanf("%d",&a[i][j]);
 
         }
     }
     printf("The matrix is: \n");
-for(int i=0;i<n317;i++)
+for(int i=0;i<n;i++)
     {
-        for(int j=0;j<m317;j++)
+        for(int j=0;j<m;j++)
         {
-            printf("%d ",a317[i][j]);
+            printf("%d ",a[i][j]);
             
         }
         printf("\n");
